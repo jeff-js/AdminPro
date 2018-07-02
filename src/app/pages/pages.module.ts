@@ -8,6 +8,7 @@ import { SharedModule } from '../shared/shared.module';
 import { PAGES_ROUTES } from './pages.routes';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { GenericChartComponent } from '../components/generic-chart/generic-chart.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { GenericChartComponent } from '../components/generic-chart/generic-chart
         ProgressComponent,
         Graficas1Component,
         PagesComponent,
-        GenericChartComponent
+        GenericChartComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
