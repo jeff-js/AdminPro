@@ -27,7 +27,7 @@ import { FormsModule } from '@angular/forms';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
     PagesModule,
     APP_ROUTES,
     ServiceModule

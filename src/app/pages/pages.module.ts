@@ -9,6 +9,8 @@ import { PAGES_ROUTES } from './pages.routes';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { GenericChartComponent } from '../components/generic-chart/generic-chart.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PrommisesComponent } from './prommises/prommises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 @NgModule({
@@ -18,7 +20,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         Graficas1Component,
         PagesComponent,
         GenericChartComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PrommisesComponent,
+        RxjsComponent
     ],
     exports: [
         DashboardComponent,

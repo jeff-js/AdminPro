@@ -12,6 +12,8 @@ export class SidebarService {
       subItems: [
         { title: 'Dashboard', url: '/dashboard' },
         { title: 'ProgressBar', url: '/progress' },
+        { title: 'Promesas', url: '/promises' },
+        { title: 'RxJs', url: '/rxjs' },
         { title: 'Graficas', url: '/graficas1' },
       ]
     }
